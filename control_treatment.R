@@ -3,8 +3,7 @@ business <- business[,-1]
 user=read.csv("yelp_academic_dataset_user_numID.csv",stringsAsFactors = FALSE)
 user <- user[,-1]
 review <- read.csv("finalreviews (1).csv",stringsAsFactors = FALSE)
-#tip=read.csv("yelp_academic_dataset_tip.csv")
-#checkin=read.csv("checkin.csv")
+
 #checkinraw=read.csv("yelp_academic_dataset_checkin.csv")
 
 library(MatchIt)
